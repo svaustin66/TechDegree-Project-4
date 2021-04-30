@@ -11,27 +11,42 @@
     padding: 10px 0;
     text-transform: uppercase;
     border-radius: 5px;
+    transition: background-color 1s;
   }
   
   .default {
     background-color: $theme-11;
+    &:hover {
+      background-color: lighten($theme-11, 15%);
+    }
   }
   
   .error {
     background-color: $theme-9;
+    &:hover {
+      background-color: lighten($theme-9, 15%);
+    }
   }
   
   .info {
     background-color: $theme-1;
+    &:hover {
+      background-color: lighten($theme-1, 15%);
+    }
   }
   
   .success {
     background-color: $theme-10;
-  }
+    &:hover {
+      background-color: lighten($theme-10, 15%);
+    }
+   }
   
   .warning {
-    background-color: $theme-2;
-  }
+    background-color: $theme-2; 
+    &:hover {
+      background-color: lighten($theme-2, 15%);
+    }}
 
 
 /* ============================================= */
